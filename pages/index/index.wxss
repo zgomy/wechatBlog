@@ -1,0 +1,57 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.userinfo-avatar {
+  width: 64rpx;
+  height: 64rpx;
+  margin: 0rpx;
+  margin-top: -150rpx;
+  /*margin-left: -600rpx;*/
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+  margin-top: 0rpx;
+  /*margin-left: -600rpx;*/
+  z-index: 1;
+}
+
+.z_index2 {
+  z-index: 2;
+  position: fixed;
+  top: 100rpx;
+}
+
+.usermotto {
+  margin-top: 0px;
+  margin-left: -500rpx;
+  z-index: 1;
+}
+
+.summitbutton {
+  bottom: 20rpx;
+  right: 20rpx;
+  position: fixed;
+}
+
+.blog {
+  padding-top: 10rpx;
+  height: 800rpx;
+  margin-right: 400rpx;
+  position: fixed;
+}
+
+.themepic {
+  position: fixed;
+  top: 0;
+  height:200rpx;
+  width: 700rpx;
+  z-index: 0;
+}

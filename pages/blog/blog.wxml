@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="themepic" src="../../themepic.png" mode="scaleToFill"></image>
+  <view class="userinfo" class="z_index2">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+<!--  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+-->
+  <text auto-height="" class="blog">
+    {{blog}}
+  </text>
+  <button class="lastbutton" type="primary" bindtap="lastblog">上一篇</button>
+  <button class="nextbutton" type="primary">下一篇</button>
+</view>
