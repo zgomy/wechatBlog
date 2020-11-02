@@ -19,7 +19,7 @@ Page({
   },
   summitblog: function(){
     //this.data.blog="fsadfsad",
-    this.data.blog=this.data.blog.concat("fadsfsda")
+    this.data.blog=this.data.blog.concat("da")
     this.setData({blog: this.data.blog})
   }
   ,
