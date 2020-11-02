@@ -12,9 +12,9 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 -->
-  <textarea placeholder="请输入新博客" auto-height="" class="blog">
+  <textarea placeholder="请输入新博客" auto-height="true" class="blog" value="{{blog}}">
     {{blog}}
   </textarea>
-  <button class="summitbutton" type="primary">提交新博客</button>
+  <button bindtap="summitblog" class="summitbutton" type="primary">提交新博客</button>
   
 </view>

@@ -17,6 +17,12 @@ Page({
       url: '../logs/logs'
     })
   },
+  summitblog: function(){
+    //this.data.blog="fsadfsad",
+    this.data.blog=this.data.blog.concat("fadsfsda")
+    this.setData({blog: this.data.blog})
+  }
+  ,
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

@@ -44,7 +44,8 @@
 .blog {
   padding-top: 10rpx;
   height: 800rpx;
-  margin-right: 400rpx;
+  /*margin-right: 400rpx;*/
+  width: 700rpx;
   position: fixed;
 }
 
