@@ -1,4 +1,9 @@
 <!--index.wxml-->
+<page-meta>
+  <navigation-bar
+    title="gdsf"
+  />
+</page-meta>
 <view class="container">
   <image class="themepic" src="../../themepic.png" mode="scaleToFill"></image>
   <view class="userinfo" class="z_index2">
